@@ -1,0 +1,22 @@
+{
+  "name": "audit",
+  "version": "1.0.0",
+  "description": "Accessibility plugin to audit a web page",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "accessibility",
+    "plugin",
+    "chrome",
+    "audit"
+  ],
+  "author": "Antonio Segura",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-sass": "^4.0.1"
+  }
+}
